@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of NutriLens AI: Professional Nutrition Intelligence",
+  "description": "A medical-grade AI food scanning app specialized in Indian diets, featuring 3D portion estimation and personalized health insights.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
