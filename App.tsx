@@ -6,7 +6,7 @@ import {
 } from 'recharts';
 import { ICONS, SYSTEM_ARCHITECTURE, MVP_ROADMAP } from './constants';
 import { UserProfile, NutritionReport } from './types';
-import { analyzeFoodImage } from './services/geminiService';
+import { analyzeFoodImage } from "./services/GeminiService";
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'dash' | 'scan' | 'design'>('dash');
